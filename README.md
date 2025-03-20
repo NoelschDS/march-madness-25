@@ -13,4 +13,4 @@ We trained two ensemble learning algorithms and two linear models on the women's
 
 Each model was trained iteratively over the past 5 seasons of data and assessed using Brier Score and F1_Score. F1_Score was used as our first layer of assessment, to see how frequently and accurately we were correctly predicting games. The competition used Brier Score Loss as its official scoring metric. This both rewards and punishes confidence in the predictions submitted. A 90% prediction scores better than a 55% prediction when correct and worse when wrong.
 
-The competition required predictions on all possible matchups between Division 1 Men's and Women's teams. Those 131k+ predictions can be found in the Stage2Submission.csv
+The competition required predictions on all possible matchups between Division 1 Men's and Women's teams. Those 131k+ predictions can be found in the SubmissionStage2.csv
